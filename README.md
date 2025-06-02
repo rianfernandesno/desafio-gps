@@ -22,8 +22,7 @@ Este projeto é uma solução para o desafio [**Pontos de Interesse por GPS**](h
 - Spring Boot
 - Spring Web
 - Spring Data JPA
-- H2 Database (para testes)
-- PostgreSQL (pode ser usado em produção)
+- H2 
 - Maven
 
 ---
