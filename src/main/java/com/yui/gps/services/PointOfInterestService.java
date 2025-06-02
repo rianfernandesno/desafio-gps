@@ -47,10 +47,8 @@ public class PointOfInterestService {
     private void copy(PointOfInterestDTO dto, PointOfInterest point){
         point.setName(dto.getName());
 
-        if(dto.getX() < 0)
+        if(dto.getX() < 0 || dto.getY() < 0)
             throw new IllegalArgumentException("O Valor não pode ser negativo");
-        if (dto.getY() <0 )
-            throw new IllegalArgumentException("O valor não pode ser negativo");
 
         point.setX(dto.getX());
         point.setY(dto.getY());
